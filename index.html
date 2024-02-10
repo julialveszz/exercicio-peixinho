@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head> <!-- Adiciona a parte da "cabeça" (cabeçalho) da página html -->
+        <!-- Essa parte inclui metadados das páginas web e algumas características do site -->
+        <meta charset="UTF-8">
+
+        <!-- Essa parte determina atributos, principalmente de escala do site -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Essa parte declara o título da página web -->
+        <title>Júlia Alves de Jesus</title>
+        
+        <!-- Inclui as estilizações de CSS da página tanto dos scripts quanto do texto H1 mais abaixo, definindo cor, posições, etc. -->
+        <style>  
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            
+            h1{ 
+                
+  position: absolute;
+  font-size: 22px;
+  left: 380px;
+  top: 280px;
+  color:rgb(0, 0, 0)
+
+}
+        </style>
+
+        <!-- Inclui o script do Phaser -->
+        <script src="phaser.js"></script>
+        
+    </head>
+
+    <body> <!-- Adiciona a parte do "corpo" da página html -->
+        
+        <script src="peixe.js"></script> <!-- Adiciona o script do peixinho  -->
+        <h1> cruzeiro </h1> <!-- Adiciona um texto H1 na página -->
+        <audio autoplay> <!-- Inclui um elemento de áudio (uma música) pra inicializar na página -->
+            <source src="assets/peixes/waves.mp3" type="audio/mp3"> 
+          </audio>
+          
+    </body>
+<!-- Script que apresenta a resposta da pergunta feita pela professora, criando a variável "resposta"-->
+    <script>  
+   var resposta = "Sim, ja tinha programado antes. Aprendi no ensino médio, fiz alguns cursos, e entendo a lógica de programação bem. Isso me ajuda mesmo quando não conheço totalmente a linguagem que estou usando. E sim, consegui entender bem as informações do tutorial. " 
+    console.log(resposta) </script> <!-- Apresenta a resposta no console do navegador-->
+    
+</html>
